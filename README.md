@@ -30,11 +30,13 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Getting Started
 
 First, install dependencies:
+
 ```bash
 npm i
 # or
 yarn
 ```
+
 After, run the development server:
 
 ```bash
@@ -63,6 +65,5 @@ To learn more about Next.js, take a look at the following resources:
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
 </div>
-
 
 ### 😁 Enjoy! 👍🏼
