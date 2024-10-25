@@ -6,6 +6,7 @@ const nextConfig = {
 	sassOptions: {
 		includePaths: [path.join(__dirname, '/src')],
 		silenceDeprecations: ['legacy-js-api'],
+		quietDeps: true,
 	},
 }
 

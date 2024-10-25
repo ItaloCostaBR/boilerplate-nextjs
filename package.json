@@ -1,7 +1,8 @@
 {
-	"name": "sebrae-calculadora",
+	"name": "boilerplate-nextjs",
 	"version": "0.1.0",
 	"private": true,
+	"author": "Italo Costa <ythalocosta99@gmail.com>",
 	"scripts": {
 		"dev": "next dev",
 		"build": "next build",
@@ -15,6 +16,7 @@
 		"moment": "^2.30.1",
 		"next": "15.0.1",
 		"react": "19.0.0-rc-69d4b800-20241021",
+		"react-bootstrap": "^2.10.5",
 		"react-dom": "19.0.0-rc-69d4b800-20241021"
 	},
 	"devDependencies": {

@@ -26,8 +26,17 @@ export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
 			<body className={`${geistSans.variable} ${geistMono.variable}`}>
-				{children}
-				{process.env.API}
+				<main>
+					{children}
+					{process.env.API}
+					<div className="container text-center">
+						<div className="row">
+							<div className="col">Column</div>
+							<div className="col">Column</div>
+							<div className="col">Column</div>
+						</div>
+					</div>
+				</main>
 			</body>
 		</html>
 	)

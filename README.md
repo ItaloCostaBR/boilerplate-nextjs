@@ -1,7 +1,7 @@
 <div align="center" id="about">
 <img  src="https://i.ibb.co/ZfF9crh/Captura-de-tela-2024-01-22-172442.png" alt="NextJs Setup" title="NextJs Setup" width="300" style="border-radius: 6px">
 <h1 align="center">NextJs Setup</h1>
-<h3 align="center">Project configuration in Nextjs for dynamic applications</h3>
+<h3 align="center">Project configuration in NextJs for dynamic applications</h3>
 <br>
 
 [![Badge](https://img.shields.io/badge/NodeJS-20.18.0-darkblue?style=for-the-badge&logo=Node.js)](https://nodejs.org/en/)
@@ -10,6 +10,7 @@
 [![Badge](https://img.shields.io/badge/NEXT.js-15.0.1-darkblue?style=for-the-badge&logo=next.js)](https://nextjs.org/)
 ![Badge](https://img.shields.io/badge/react-19.0.0-darkblue?style=for-the-badge&logo=react)
 [![Badge](https://img.shields.io/badge/bootstrap-5.3.2-darkblue?style=for-the-badge&logo=bootstrap)](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+[![Badge](https://img.shields.io/badge/react_bootstrap-2.10.5-darkblue?style=for-the-badge&logo=react)](https://react-bootstrap.netlify.app/docs/components/accordion)
 
 </div>
 <br>
@@ -63,6 +64,24 @@ To learn more about Next.js, take a look at the following resources:
 -   [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+</div>
+
+<div id="author">
+
+# 🙋‍♂️ Autor
+
+<a href="https://github.com/ItaloCostaBR">
+    <img style="border-radius: 100%;" src="https://avatars.githubusercontent.com/u/28763610" width="150px;" alt="Italo Costa"/>
+    <br />
+    <sub><b>Italo Costa 🎹👨🏻‍💻</b></sub>
+</a>
+
+<br />
+
+[![Linkedin Badge](https://img.shields.io/badge/-Italo%20Costa-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/italo-costa99/)](https://www.linkedin.com/in/italo-costa99/)
+[![Instagram Badge](https://img.shields.io/badge/-italocostakeys-red?style=flat-square&logo=Instagram&logoColor=white&link=https://www.instagram.com/italocostakeys/)](https://www.instagram.com/italocostakeys/)
+[![Gmail Badge](https://img.shields.io/badge/ythalocosta99@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:ythalocosta99@gmail.com)](mailto:ythalocosta99@gmail.com)
 
 </div>
 
