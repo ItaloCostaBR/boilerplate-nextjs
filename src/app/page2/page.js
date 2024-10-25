@@ -14,9 +14,6 @@ export default function Page2() {
 	return (
 		<div className="page-2">
 			{process.env.API}
-			<Link href="/page2/slug-here">
-				<span className="nav-link">Page Slug</span>
-			</Link>
 			<div className="container text-center">
 				<div className="row">
 					<div className="col">
@@ -36,9 +33,12 @@ export default function Page2() {
 									title and make up the bulk of the card's
 									content.
 								</p>
-								<a href="#" className="btn btn-primary">
-									Go somewhere
-								</a>
+								<Link
+									href="/page2/slug-here"
+									className="btn btn-primary"
+								>
+									<span className="nav-link">Page Slug</span>
+								</Link>
 							</div>
 						</div>
 					</div>

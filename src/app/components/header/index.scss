@@ -8,6 +8,11 @@ header {
 	display: flex;
 	flex-direction: column;
 	overflow: hidden;
+	padding: 10px 0;
+
+	ul {
+		gap: 12px;
+	}
 
 	li {
 		a {
