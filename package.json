@@ -2,7 +2,6 @@
 	"name": "boilerplate-nextjs",
 	"version": "0.1.0",
 	"private": true,
-	"author": "Italo Costa <ythalocosta99@gmail.com>",
 	"scripts": {
 		"dev": "next dev",
 		"build": "next build",
@@ -11,6 +10,21 @@
 		"format": "prettier --write .",
 		"prepare": "husky"
 	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ItaloCostaBR/boilerplate-nextjs"
+	},
+	"bugs": {
+		"url": "https://github.com/ItaloCostaBR/boilerplate-nextjs/issues"
+	},
+	"homepage": "https://github.com/ItaloCostaBR/boilerplate-nextjs#readme",
+	"keywords": [
+		"NextJs",
+		"React",
+		"Boilerplate"
+	],
+	"author": "Italo Costa <ythalocosta99@gmail.com>",
+	"license": "MIT",
 	"dependencies": {
 		"bootstrap": "^5.3.3",
 		"framer-motion": "^11.11.10",
