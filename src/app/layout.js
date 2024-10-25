@@ -1,5 +1,8 @@
 import localFont from 'next/font/local'
+import Header from '@/app/components/header'
+import Footer from '@/app/components/footer'
 import './globals.scss'
+import Transition from '@/app/transition'
 
 const geistSans = localFont({
 	src: './fonts/GeistVF.woff',
@@ -26,17 +29,11 @@ export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
 			<body className={`${geistSans.variable} ${geistMono.variable}`}>
+				<Header />
 				<main>
-					{children}
-					{process.env.API}
-					<div className="container text-center">
-						<div className="row">
-							<div className="col">Column</div>
-							<div className="col">Column</div>
-							<div className="col">Column</div>
-						</div>
-					</div>
+					<Transition>{children}</Transition>
 				</main>
+				<Footer />
 			</body>
 		</html>
 	)
