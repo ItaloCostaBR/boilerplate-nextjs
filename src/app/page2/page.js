@@ -1,3 +1,5 @@
+import Link from 'next/link'
+import Image from 'next/image'
 import './page.scss'
 
 export const metadata = {
@@ -12,11 +14,20 @@ export default function Page2() {
 	return (
 		<div className="page-2">
 			{process.env.API}
+			<Link href="/page2/slug-here">
+				<span className="nav-link">Page Slug</span>
+			</Link>
 			<div className="container text-center">
 				<div className="row">
 					<div className="col">
 						<div className="card">
-							<img src="" className="card-img-top" alt="" />
+							<Image
+								width={200}
+								height={200}
+								src="https://picsum.photos/200"
+								className="card-img-top"
+								alt="image"
+							/>
 
 							<div className="card-body">
 								<h5 className="card-title">Card title</h5>
@@ -33,7 +44,13 @@ export default function Page2() {
 					</div>
 					<div className="col">
 						<div className="card" aria-hidden="true">
-							<img src="" className="card-img-top" alt="" />
+							<Image
+								width={200}
+								height={200}
+								src="https://picsum.photos/200"
+								className="card-img-top"
+								alt="image"
+							/>
 							<div className="card-body">
 								<h5 className="card-title placeholder-glow">
 									<span className="placeholder col-6"></span>

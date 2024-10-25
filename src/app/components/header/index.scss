@@ -1,2 +1,29 @@
 header {
+	position: fixed;
+	z-index: 9;
+	top: 0;
+	left: 0;
+	width: 100%;
+	transition: all 0.3s ease-in-out;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+
+	li {
+		a {
+			font: inherit;
+			color: inherit;
+			line-height: 1.2;
+		}
+
+		&.active {
+			color: var(--bs-code-color);
+		}
+
+		@media screen and (min-width: 1025px) {
+			&:hover {
+				color: var(--bs-code-color);
+			}
+		}
+	}
 }
